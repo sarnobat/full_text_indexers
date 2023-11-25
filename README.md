@@ -22,7 +22,8 @@
 
 ### Recoll
 ```
-cat html_files.txt | RECOLL_TMPDIR=/media/sarnobat/cache_recoll recollindex -if -c /media/sarnobat/cache_recoll/recoll_index/
+find  -iname "*.htm*" | tee /tmp/html_files.txt
+cat /tmp/html_files.txt | RECOLL_TMPDIR=/media/sarnobat/cache_recoll recollindex -if -c /media/sarnobat/cache_recoll/recoll_index/
 ls ~/.recoll
 
 recollq -c /media/sarnobat/cache_recoll/recoll_index/  'mysearchterm -myexcludedterm mime:text/html'
