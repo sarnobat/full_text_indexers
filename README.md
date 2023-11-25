@@ -29,11 +29,12 @@ recollq -c /media/sarnobat/cache_recoll/recoll_index/  'mysearchterm -myexcluded
 ```
 
 ### Tracker
+```
   sudo apt install -y tracker
   tracker3 index
   tracker3 index --add /media/sarnobat/3TB/2021/disks/thistle/videos
-
+```
 ### Others
-strigi
-xapian
-puggle
+* strigi
+* xapian
+* puggle
