@@ -1,7 +1,5 @@
 # full_text_indexers
 
-### Swish
-
 ### Swish++
 ```
   cd /3TB/new/
