@@ -33,6 +33,7 @@ recollq -c /media/sarnobat/cache_recoll/recoll_index/  'mysearchterm -myexcluded
   sudo apt install -y tracker
   tracker3 index
   tracker3 index --add videos/
+  tracker3 search atletico
 ```
 ### Others
 * strigi
