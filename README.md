@@ -35,3 +35,5 @@ recollq -c /media/sarnobat/cache_recoll/recoll_index/  'mysearchterm -myexcluded
 
 ### Others
 strigi
+xapian
+puggle
