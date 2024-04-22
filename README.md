@@ -42,3 +42,4 @@ Problem: can't index individual files, only directories it seems.
 * strigi
 * xapian
 * puggle
+* https://github.com/blevesearch/bleve (golang)
